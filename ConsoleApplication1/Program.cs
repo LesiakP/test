@@ -29,6 +29,7 @@ namespace ConsoleApplication1
         static fullness check(string[,] raft, int N)
         {
             Console.ReadLine();
+            Console.WriteLine("rwrw");
             fullness n = new fullness();
             for (int i = 0; i < N; i++)
                 for (int j = 0; j < N; j++)
